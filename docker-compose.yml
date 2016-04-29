@@ -1,0 +1,9 @@
+app:
+  image: aduchi/movietoday:latest
+  environment:
+   - DEBUG=true
+  ports:
+   - 8000:8000
+  volumes:
+   - movietoday_public:/opt/movietoday/public/
+   - movietoday_run:/opt/movietoday/run/

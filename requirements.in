@@ -1,0 +1,5 @@
+django==1.9.4
+requests==2.9.1
+pytz==2016.3
+django-taggit==0.18.0
+unidecode==0.4.19
